@@ -13,3 +13,11 @@ function circumference(num){
 function isArray(x) { //tests for an array without using typeof (for older browsers that don't have isArray() already)
     return x.constructor.toString().indexOf("Array") > -1;
 }
+
+linearCongruentialGenerator = function(){ //generates a random number name of function is name of the algorithm
+    let a = 1024;
+    let m = 222;
+    let c = 10139302;
+    X = (a * X + c) % m;
+    return X;
+}
