@@ -21,3 +21,13 @@ linearCongruentialGenerator = function(){ //generates a random number name of fu
     X = (a * X + c) % m;
     return X;
 }
+
+const reverseString = function(firstWord) { //returns a string in reverse.
+    reverseWord = firstWord.split("")
+
+    reverseArray = reverseWord.reverse();
+
+    joinArray = reverseArray.join("");
+
+    return joinArray;
+}
