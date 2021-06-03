@@ -31,3 +31,8 @@ const reverseString = function(firstWord) { //returns a string in reverse.
 
     return joinArray;
 }
+
+function addElement(){
+    var item = document.createElement("div");
+    document.getElementById("").addElement()
+}
