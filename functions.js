@@ -32,7 +32,15 @@ const reverseString = function(firstWord) { //returns a string in reverse.
     return joinArray;
 }
 
-function addElement(){
+function addElement(){ //creates and appends a new element of any type to any desired parent
     var item = document.createElement("div");
     document.getElementById("").addElement()
 }
+
+function isEmpty(obj) { //checks Object to see if it is empty
+    for (let key in obj) {
+      // if the loop has started, there is a property
+      return false;
+    }
+    return true;
+  }
